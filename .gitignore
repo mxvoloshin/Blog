@@ -1,0 +1,8 @@
+﻿/Blog.Application/bin/
+/Blog.Application/obj/
+/Blog.Domain/bin/
+/Blog.Domain/obj/
+/Blog.WebAPI/bin/
+/Blog.WebAPI/obj/
+/Blog.Infrastructure/bin/
+/Blog.Infrastructure/obj/

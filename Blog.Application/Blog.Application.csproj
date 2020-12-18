@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="9.3.0" />
+      <PackageReference Include="MediatR" Version="9.0.0" />
+      <PackageReference Include="MediatR.Extensions.FluentValidation.AspNetCore" Version="1.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Comments\Commands" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blog.Infrastructure\Blog.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
